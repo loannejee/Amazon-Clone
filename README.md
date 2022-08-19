@@ -12,6 +12,7 @@ Project Deployment Link:
 ![Stripe](https://img.shields.io/badge/Tool-Stripe-FF9900?style=flat&logo=Stripe)
 ![FakeStore](https://img.shields.io/badge/Tool-Fake%20Store%20API-FF9900?style=flat&logo=Fake-Store-API)
 ![TailwindCSS](https://img.shields.io/badge/Tool-Tailwind%20CSS-FF9900?style=flat&logo=TailwindCSS)
+![Heroicons](https://img.shields.io/badge/Tool-Heroicons-FF9900?style=flat&logo=Heroicons)
 ![Javascript](https://img.shields.io/badge/Code-Javascript-FF9900?style=flat&logo=Javascript)
 ![VisualStudioCode](https://img.shields.io/badge/Tool-VS%20Code-FF9900?style=flat&logo=VisualStudioCode)
 
