@@ -19,7 +19,7 @@ Project Deployment Link:
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Third party APIs include [Stripe](https://stripe.com/docs) for payment and the [Fake Store API](https://fakestoreapi.com/docs) e-commerce Pseudo-real data such as products, carts, and users in JSON format.
+Third party APIs include [Stripe](https://stripe.com/docs) for payment and the [Fake Store API](https://fakestoreapi.com/docs) for e-commerce Pseudo-real data such as products, carts, and users in JSON format.
 
 ## :computer: Demo
 
