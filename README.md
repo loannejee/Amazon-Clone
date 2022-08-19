@@ -4,10 +4,11 @@ Project Deployment Link:
 
 ## :wrench: Technologies & Tools
 
-![React](https://img.shields.io/badge/Tool-React-FF9900?style=flat&logo=React)
-![Redux](https://img.shields.io/badge/Tool-Redux-FF9900?style=flat&logo=Redux)
+![Next.js](https://img.shields.io/badge/Framework-Next.js-FF9900?style=flat&logo=NextJS)
+![React](https://img.shields.io/badge/Library-React-FF9900?style=flat&logo=React)
+![Redux](https://img.shields.io/badge/Library-Redux-FF9900?style=flat&logo=Redux)
 ![Firebase](https://img.shields.io/badge/Tool-Firebase%20Firestore-FF9900?style=flat&logo=Firebase)
-![Firebase](https://img.shields.io/badge/Tool-Firebase%20Authentication-FF9900?style=flat&logo=Firebase)
+![Firebase](https://img.shields.io/badge/Platform-Firebase%20Authentication-FF9900?style=flat&logo=Firebase)
 ![Stripe](https://img.shields.io/badge/Tool-Stripe-FF9900?style=flat&logo=Stripe)
 ![FakeStore](https://img.shields.io/badge/Tool-Fake%20Store%20API-FF9900?style=flat&logo=FakeStoreAPI)
 ![TailwindCSS](https://img.shields.io/badge/Tool-Tailwind%20CSS-FF9900?style=flat&logo=TailwindCSS)
