@@ -9,7 +9,7 @@ Project Deployment Link:
 ![Firebase](https://img.shields.io/badge/Tool-Firebase%20Firestore-FF9900?style=flat&logo=Firebase)
 ![Firebase](https://img.shields.io/badge/Tool-Firebase%20Authentication-FF9900?style=flat&logo=Firebase)
 ![Stripe](https://img.shields.io/badge/Tool-Stripe-FF9900?style=flat&logo=Stripe)
-![FakeStore](https://img.shields.io/badge/Tool-Fake%20Store-FF9900?style=flat&logo=FakeStore)
+![FakeStore](https://img.shields.io/badge/Tool-Fake%20Store%20API-FF9900?style=flat&logo=FakeStoreAPI)
 ![TailwindCSS](https://img.shields.io/badge/Tool-Tailwind%20CSS-FF9900?style=flat&logo=TailwindCSS)
 ![Javascript](https://img.shields.io/badge/Code-Javascript-FF9900?style=flat&logo=Javascript)
 ![VisualStudioCode](https://img.shields.io/badge/Tool-VS%20Code-FF9900?style=flat&logo=VisualStudioCode)
