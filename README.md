@@ -9,6 +9,7 @@ Project Deployment Link:
 ![Firebase](https://img.shields.io/badge/Tool-Firebase%20Firestore-FF9900?style=flat&logo=Firebase)
 ![Firebase](https://img.shields.io/badge/Tool-Firebase%20Authentication-FF9900?style=flat&logo=Firebase)
 ![Stripe](https://img.shields.io/badge/Tool-Stripe-FF9900?style=flat&logo=Stripe)
+![FakeStore](https://img.shields.io/badge/Tool-Fake%20Store-FF9900?style=flat&logo=FakeStore)
 ![TailwindCSS](https://img.shields.io/badge/Tool-Tailwind%20CSS-FF9900?style=flat&logo=TailwindCSS)
 ![Javascript](https://img.shields.io/badge/Code-Javascript-FF9900?style=flat&logo=Javascript)
 ![VisualStudioCode](https://img.shields.io/badge/Tool-VS%20Code-FF9900?style=flat&logo=VisualStudioCode)
@@ -16,6 +17,8 @@ Project Deployment Link:
 ## This is a Next.js and Firebase App
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+Third party APIs include [Stripe](https://stripe.com/docs) for payment and the [Fake Store API](https://fakestoreapi.com/docs) e-commerce Pseudo-real data such as products, carts, and users in JSON format.
 
 ## :computer: Demo
 
