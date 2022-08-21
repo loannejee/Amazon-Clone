@@ -1,4 +1,4 @@
-// Need to goodlist where we're going to pull these images from for nextjs
+// Need to goodlist where we're going to pull these images from for nextjs to know
 // Set up domain array of domains
 module.exports = {
     images: {
