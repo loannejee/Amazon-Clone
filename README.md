@@ -20,6 +20,8 @@ Project Deployment Link:
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+[Firebase Firestore](https://firebase.google.com/?hl=en&authuser=0) (version 9) was used for the backend server and [NextAuth.js](https://next-auth.js.org/getting-started/example) was used for creating and logging into accounts with Google configured as the authentication provider. 
+
 Third party APIs include [Stripe](https://stripe.com/docs) for payment and the [Fake Store API](https://fakestoreapi.com/docs) for e-commerce Pseudo-real data such as products, carts, and users in JSON format.
 
 ## :computer: Demo
