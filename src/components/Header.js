@@ -8,6 +8,8 @@ import {
 import { useSession, signIn, signOut } from "next-auth/react";
 
 function Header() {
+    const session = useSession().data;
+
     return (
         <header>
             {/* TOP NAV */}
@@ -44,8 +46,9 @@ function Header() {
                 {/* Account, Orders, and Cart */}
                 <div className='text-white flex items-center text-xs space-x-6 mx-6 whitespace-nowrap'>
 
-                    <div className='link' onClick={signIn}>
-                        <p>Hello, Joanne</p>
+                    <div className='link' onClick={!session ? signIn : signOut}>
+                        {/* String interpolation */}
+                        <p>{session ? `Hello, ${session.user.name}` : "Sign In"}</p>
                         <p className='font-extrabold md:text-sm'>Account & Lists</p>
                     </div>
 
