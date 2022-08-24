@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import { StarIcon } from "@heroicons/react/solid";
+// THUNK? -  middleware that lets you call action creators that return a function instead of an action object
+import { useDispatch } from 'react-redux';
+import { addToCart } from '../slices/cartSlice';
 
 const dollarUS = Intl.NumberFormat("en-US", {
     style: "currency",
@@ -11,12 +14,34 @@ const MIN_RATING = 1;
 
 // Deconstruct props
 function Product({ id, title, price, category, description, image }) {
+
+    const dispatch = useDispatch();
+
     // Generate random number between 1 and 5
     const randomRating = Math.floor(Math.random() * (MAX_RATING - MIN_RATING + 1)) + MIN_RATING
+
     // Generate random true or false
     const randomHasPrime = Math.random() < 0.5
+
     const [rating] = useState(randomRating);
-    const [hasPrime] = useState(randomHasPrime)
+
+    const [hasPrime] = useState(randomHasPrime);
+
+    const addItemToCart = () => {
+        // Add product data into object container
+        const product = {
+            id, 
+            title, 
+            price, 
+            category, 
+            description, 
+            image,
+            rating,
+            hasPrime,
+        }
+        // Sending the product as an action to the REDUX store... the cart slice
+        dispatch(addToCart(product));
+    }
 
     return (
         <div className='relative flex flex-col m-5 bg-white z-30 p-10'>
@@ -31,7 +56,7 @@ function Product({ id, title, price, category, description, image }) {
                 {Array(rating)
                     .fill()
                     .map((_, i) => {
-                        return (<StarIcon className='h-5 text-yellow-500' />)
+                        return (<StarIcon key={i} className='h-5 text-yellow-500' />)
                     })
                 }
             </div>
@@ -49,7 +74,7 @@ function Product({ id, title, price, category, description, image }) {
                 </div>
             )}
 
-            <button className='button'>Add to Cart</button>
+            <button className='button' onClick={addItemToCart}>Add to Cart</button>
 
         </div>
     )
