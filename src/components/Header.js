@@ -6,9 +6,11 @@ import {
     ShoppingCartIcon, 
 } from "@heroicons/react/outline";
 import { useSession, signIn, signOut } from "next-auth/react";
+import { useRouter } from "next/router";
 
 function Header() {
     const session = useSession().data;
+    const router = useRouter();
 
     return (
         <header>
@@ -23,6 +25,7 @@ function Header() {
                         height={40}
                         objectFit="contain"
                         className='cursor-pointer'
+                        onClick={() => {router.push('/')}}
                     />
                 </div>
 
@@ -58,12 +61,13 @@ function Header() {
                     </div>
                     
                     
-                    <div className='relative link flex items-center'>
+                    <div className='relative link flex items-center' onClick={() => {router.push('/checkout')}}>
                         <span className='absolute top-0 right-0 md:right-10 h-4 w-4 bg-yellow-400 text-center rounded-full text-black font-bold'>0</span>
                         <ShoppingCartIcon className='h-10'/>
                         {/* By default, the "Cart" label on the nav shall be hidden until the screen is medium or above. Once reach md, make it inline as well*/}
                         <p className='hidden md:inline font-extrabold md:text-sm mt-2'>Cart</p>
                     </div>
+                    
                 </div>
             </div>
 
