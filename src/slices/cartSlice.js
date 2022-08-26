@@ -45,5 +45,8 @@ export const { addToCart, removeFromCart } = cartSlice.actions;
 
 // SELECTORS - This is how we pull information from the Global store slice
 export const selectItems = (state) => state.cart.items; // Referring to line 5
+export const selectTotal = (state) => state.cart.items.reduce(
+  ( previousElement, currentElement) => previousElement + parseFloat(currentElement.price), 0
+)
 
 export default cartSlice.reducer;

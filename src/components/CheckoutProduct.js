@@ -58,6 +58,10 @@ function CheckoutProduct({ id, title, price, category, description, image, ratin
             </div>
 
             {/* Left Side */}
+            {/* Challenge: 
+            1. see if you increase or decrease quantity on checkout
+            2. adding products from the home page already existing in the cart will increment the product in the cart  
+             */}
             <div className='flex flex-col space-y-2 my-auto justify-self-end'>
                 <button className='button' onClick={removeItemFromCart}>Remove from Cart</button>
             </div>
