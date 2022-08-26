@@ -12,8 +12,32 @@ export const cartSlice = createSlice({
     // ACTIONS, STATE, PAYLOAD:
     addToCart: (state, action) => {
       state.items = [...state.items, action.payload]
+      console.log(state.items)
     },
-    removeFromCart: (state, action) => { },
+    removeFromCart: (state, action) => {
+      state.items = state.items.filter((cartItem) => {
+        if (action.payload.id != cartItem.id) {
+          return cartItem
+        }
+      })
+    },
+
+    // removeFromCart: (state, action) => {
+    //   const index = state.items.findIndex(
+    //     (cartItem) => (cartItem.id === action.payload.id) 
+    //   );
+
+    //   let newCart = [...state.items];
+
+    //   if (index >= 0) {
+    //     // The item exists in the basket... remove it...
+    //     newCart.splice(index, 1);
+    //   } else {
+    //     console.warn("Can't remove product")
+    //   }
+
+    //   state.items = newCart
+    // },
   },
 });
 

@@ -33,6 +33,7 @@ function Checkout() {
                                 return (
                                     <CheckoutProduct
                                         key={i}
+                                        id={item.id}
                                         title={item.title}
                                         price={item.price}
                                         category={item.category}
