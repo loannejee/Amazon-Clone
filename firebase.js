@@ -10,3 +10,12 @@ const firebaseConfig = {
     messagingSenderId: "126686782748",
     appId: "1:126686782748:web:929b6beebd9fc3df6ac6d9"
 };
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+
+// Firestore
+const db = getFirestore(app);
+
+// default exports; can only have one
+export default db
