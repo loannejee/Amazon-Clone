@@ -1,7 +1,4 @@
 # Amazon Clone
-
-Project Deployment Link:
-
 ## :wrench: Technologies & Tools
 
 ![Next.js](https://img.shields.io/badge/Framework-Next.js-FF9900?style=flat&logo=Next.js)
@@ -25,6 +22,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 Third party APIs include [Stripe](https://stripe.com/docs) for payment and the [Fake Store API](https://fakestoreapi.com/docs) for e-commerce Pseudo-real data such as products, carts, and users in JSON format.
 
 ## :computer: Demo
+
+
+https://user-images.githubusercontent.com/95735163/189438979-99265a19-0ac9-4b93-aa96-adbcb1e12568.mp4
+
 
 ## Getting Started
 
